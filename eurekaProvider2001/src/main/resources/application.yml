@@ -1,0 +1,11 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: eurekaProvider2001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServer1000:1000/eureka/,http://eurekaServer1001:1001/eureka/

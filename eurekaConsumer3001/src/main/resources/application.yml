@@ -1,0 +1,10 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: eurekaComsumer3001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaServer1000:1000/eureka/,http://eurekaServer1001:1001/eureka/
